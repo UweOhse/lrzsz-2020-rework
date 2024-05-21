@@ -22,6 +22,15 @@
 #endif
 
 #include <stdio.h>
+
+/* This needs to come after some library #include
+   to get __GNU_LIBRARY__ defined.  */
+#ifdef	__GNU_LIBRARY__
+/* Don't include stdlib.h for non-GNU C libraries because some of them
+   contain conflicting prototypes for getopt.  */
+#include <stdlib.h>
+#endif	/* GNU C library.  */
+
 #include <getopt.h>
 #include "long-options.h"
 
