@@ -101,7 +101,7 @@ AC_CHECK_LIB(intl,gettext,,,)
 dnl Checks for header files.
 AC_HEADER_STDC
 AC_HEADER_MAJOR
-AC_CHECK_HEADERS(fcntl.h limits.h sys/ioctl.h sys/time.h unistd.h sys/times.h)
+AC_CHECK_HEADERS(fcntl.h limits.h locale.h sys/ioctl.h sys/time.h unistd.h sys/times.h)
 LRZSZ_HEADERS_TERM_IO
 AC_CHECK_HEADERS(sys/mman.h utime.h syslog.h sys/syslog.h sys/param.h)
 AC_CHECK_HEADERS(sys/select.h strings.h)
