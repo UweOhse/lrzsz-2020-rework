@@ -32,6 +32,7 @@
 #include <errno.h>
 #include <getopt.h>
 #include <time.h>
+#include <locale.h>
 
 #include "timing.h"
 #include "long-options.h"

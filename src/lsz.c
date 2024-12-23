@@ -33,6 +33,7 @@
 #include <ctype.h>
 #include <errno.h>
 #include <getopt.h>
+#include <locale.h>
 
 struct lrzsz_config config;
 
