@@ -65,8 +65,6 @@ extern int errno;
 	}								\
       while (0)
 
-__unsigned long int __strtol ();
-
 /* FIXME: comment.  */
 
 strtol_error

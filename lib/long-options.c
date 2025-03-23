@@ -22,6 +22,7 @@
 #endif
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <getopt.h>
 #include "long-options.h"
 
@@ -43,7 +44,7 @@ parse_long_options (argc, argv,version, usage)
      int argc;
      char **argv;
      void (*version)();
-     void (*usage)();
+     void (*usage)(int);
 #endif
 {
   int c;
