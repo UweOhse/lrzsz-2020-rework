@@ -73,7 +73,7 @@ extern char *program_name;
 
 # if HAVE_STRERROR
 #  ifndef strerror		/* On some systems, strerror is a macro */
-char *strerror ();
+char *strerror (int);
 #  endif
 # else
 static char *

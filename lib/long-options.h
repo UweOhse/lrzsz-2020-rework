@@ -6,5 +6,5 @@
 #endif
 
 void parse_long_options __P ((int _argc, char **_argv, 
-							  void (*_version) (void), 
+							  void (*_version) (), 
 							  void (*_usage) (int)));
