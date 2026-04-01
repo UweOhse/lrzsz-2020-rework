@@ -39,12 +39,12 @@ void parse_long_options (int argc, char **argv,
 	void (*version)(void), void (*usage)(int))
 #else
 void
-parse_long_options (argc, argv,version, usage)
-     int argc;
-     char **argv;
-     void (*version)();
-     void (*usage)();
-#endif
+parse_long_options (
+     int argc,
+     char **argv,
+     void (*version)(),
+     void (*usage)()
+)
 {
   int c;
   int saved_opterr;
