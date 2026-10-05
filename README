@@ -1,3 +1,7 @@
+This was a incomplete piece of work. Do not use it for real.
+
+***************************************************************************
+
 NOTE:
 
 Do not use the repository until further notice.
@@ -48,7 +52,7 @@ Future plans:
 -----------------------------------------------------------------------
 
 lrzsz is a X/Y/ZModem package built from the public-domain version of
-Chuck Forsberg´s rzsz package. This package contains NO code from later
+Chuck ForsbergÂ´s rzsz package. This package contains NO code from later
 releases of rzsz which would preclude it from being released under the
 GPL.
 It has been heavily modified by me and others.
